@@ -56,6 +56,7 @@ function game(numRounds) {
         let playerSelection = input.toLowerCase();
         let result = playRound(playerSelection, getComputerChoice());
         console.log(result);
+        console.log(`Your score: ${playerScore} ..... Computer score: ${computerScore}`);
         number_of_rounds++;
     }
 
