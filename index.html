@@ -5,10 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <script src="./sandbox.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1>** ROCK PAPER SCISSORS **</h1>
+        </div>
+        <div class="scores">
+            <div class="player">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="playground">
+            <div class="title">
+                <h3>Choose an option</h3>
+            </div>
+            
+            <div class="choices">
+                <div class="img">
+                    <img src="./images/rock.svg" alt="rock">
+                    <button id="rock">Rock</button>
+                </div>
+                <div class="img">
+                    <img src="./images/paper.svg" alt="paper">
+                    <button id="paper">Paper</button>
+                </div>
+                <div class="img">
+                    <img src="./images/scissors.svg" alt="scissors">
+                    <button id="scissors">Scissors</button>
+                </div>
+            </div>
+        </div>
+        <div class="results">
+            <h3></h3>
+        </div>
+    </div>
+    <script src="./sandbox.js"></script>
 </body>
 </html>
